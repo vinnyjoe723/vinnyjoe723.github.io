@@ -11,23 +11,19 @@
       <p>Welcome to my page</p>
     </header>
     <div class="container">
-      <table style="width:100%">
-        <tr>
-          <th>First name</th>
-          <th>Last name</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>Jill</td>
-          <td>Smith</td> 
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>Eve</td>
-          <td>Jackson</td> 
-          <td>94</td>
-        </tr>
-      </table>
+      <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      <ul id="myUL">
+        <li>Hit the gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Meet George</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Organize office</li>
+      </ul>
     </div>
   </body>
 </html>
