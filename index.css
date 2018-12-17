@@ -83,6 +83,10 @@ ul li.checked::before {
   display: table;
   clear: both;
 }
+.main {
+  background-color: #00ffff;
+  color: black;
+}
 
 /* Style the input */
 input {
