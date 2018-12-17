@@ -83,7 +83,7 @@ ul li.checked::before {
   display: table;
   clear: both;
 }
-.main {
+#main {
   background-color: #00ffff;
   color: black;
 }
